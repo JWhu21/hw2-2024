@@ -1,101 +1,100 @@
-
 body {
-    font-family: Arial, Verdana, sans-serif; /* Arial as the primary font, Verdana as the fallback */
-    background-color: #000000; /* Black background */
-    color: #FFFFFF; /* White font color */
-    margin: 20px 20px 0 20px; /* Margin 20px top and sides, none at the bottom */
+    font-family: Arial, Verdana;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin: 20px 20px 0 20px;
 }
 
 h1 {
-    font-size: 42px; /* 42px font size */
-    text-align: center; /* Centered text */
-    padding: 15px; /* Padding of 15px */
+    font-size: 42px; 
+    text-align: center; 
+    padding: 15px; 
 }
 
 h2 {
-    font-size: 30px; /* 30px font size */
-    color: #0D0D0D; /* Dark gray font */
+    font-size: 30px;
+    color: #0D0D0D; 
 }
 
 p {
-    font-size: 24px; /* 24px font size */
-    padding: 10px 0 0 10px; /* Padding 10px top and left only */
+    font-size: 24px; 
+    padding: 10px 0 0 10px; 
 }
 
 img {
-    width: 250px; /* 250px wide */
-    display: block; /* Allows for centering */
+    width: 250px; 
+    display: block; 
     margin-left: auto;
-    margin-right: auto; /* Center the image */
-    border: 10px dashed #FFFFFF; /* White 10px dashed border */
+    margin-right: auto; 
+    border: 10px dashed #FFFFFF; 
 }
 
 div {
-    min-height: 125px; /* Flexible height, at least 125px tall */
-    padding: 20px; /* Padding of 20px on all sides */
-    border: 3px solid #FFFFFF; /* 3px solid white border */
+    min-height: 125px; 
+    padding: 20px; 
+    border: 3px solid #FFFFFF; 
 }
 
 .introduction {
-    border-radius: 15px; /* 15px border-radius for curved edges */
-    margin-top: 15px; /* 15px margin on the top */
-    line-height: 2; /* Double-spaced text */
+    border-radius: 15px; 
+    margin-top: 15px; 
+    line-height: 2; 
 }
 
 .red {
-    background-color: #FF0000; /* Background color red */
-    text-align: right; /* Text aligned to the right */
-    margin-left: 50px; /* Left margin of 50px */
-    border-bottom: 2px solid; /* 2px border on the bottom */
-    border-left: 5px solid; /* 5px border on the left */
+    background-color: #FF0000; 
+    text-align: right; 
+    margin-left: 50px;
+    border-bottom: 2px solid;
+    border-left: 5px solid; 
 	border-top: 0px solid;
 	border-right: 0px solid;
 }
 
 
 .blue {
-    background-color: #0000FF; /* Background color blue */
-    text-align: left; /* Text aligned to the left */
-    margin-right: 50px; /* Right margin of 50px */
-    border-right: 5px solid; /* 5px border on the right */
-    border-top: 2px solid; /* 2px border on the top */
+    background-color: #0000FF; 
+    text-align: left; 
+    margin-right: 50px; 
+    border-right: 5px solid; 
+    border-top: 2px solid; 
 	border-left: 0px solid;
 	border-bottom: 0px solid;
-    color: #C4C4C4; /* Light grey text color for better contrast */
+    color: #C4C4C4; 
 }
 
 .blue h2 {
-    color: #C4C4C4; /* Correct color for better contrast */
+    color: #C4C4C4; 
 }
 
 .yellow {
-    background-color: #FFFF00; /* Background color yellow */
-    text-align: right; /* Text aligned to the right */
-    margin-left: 50px; /* Left margin of 50px */
-    border-bottom: 2px solid; /* 2px border on the bottom */
-    border-left: 5px solid; /* 5px border on the left */
+    background-color: #FFFF00;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid; 
+    border-left: 5px solid; 
 	border-top: 0px solid;
 	border-right: 0px solid;
-    color: #707070; /* Dark grey text color for better contrast */
+    color: #707070;
 }
 
 .green {
-    background-color: #008500; /* You can choose between #00EB00, #008500, or #00D800 for different shades of green */
-    text-align: left; /* Text aligned to the left */
-    margin-right: 50px; /* Right margin of 50px */
-    border-right: 5px solid; /* 5px border on the right */
-    border-top: 2px solid; /* 2px border on the top */
+    background-color: #008500; 
+    text-align: left; 
+    margin-right: 50px; 
+    border-right: 5px solid; 
+    border-top: 2px solid; 
 	border-left: 0px solid;
 	border-bottom: 0px solid;
 }
 
 footer {
     background: linear-gradient(to right, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%); /* Gradient background */
-    border: 5px solid #FFFFFF; /* 5px solid white border */
+    border: 5px solid #FFFFFF; 
 }
 
 footer p {
-    font-size: 20px; /* 20px text size */
-    text-align: right; /* Text aligned to the right */
-    padding: 15px 15px 15px 0; /* Padding 15px top, right, and bottom, no padding on the left */
+    font-size: 20px;
+    text-align: right; 
+    padding: 15px 15px 15px 0; 
 }
