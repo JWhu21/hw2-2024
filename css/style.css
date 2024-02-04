@@ -1,4 +1,4 @@
-/* Style for the body */
+
 body {
     font-family: Arial, Verdana, sans-serif; /* Arial as the primary font, Verdana as the fallback */
     background-color: #000000; /* Black background */
@@ -6,26 +6,25 @@ body {
     margin: 20px 20px 0 20px; /* Margin 20px top and sides, none at the bottom */
 }
 
-/* Style for h1 headings */
 h1 {
     font-size: 42px; /* 42px font size */
     text-align: center; /* Centered text */
     padding: 15px; /* Padding of 15px */
 }
 
-/* Style for h2 headings */
+
 h2 {
     font-size: 30px; /* 30px font size */
     color: #0D0D0D; /* Dark gray font */
 }
 
-/* Style for paragraphs */
+
 p {
     font-size: 24px; /* 24px font size */
     padding: 10px 0 0 10px; /* Padding 10px top and left only */
 }
 
-/* Default style for images */
+
 img {
     width: 250px; /* 250px wide */
     display: block; /* Allows for centering */
@@ -34,66 +33,62 @@ img {
     border: 10px dashed #FFFFFF; /* White 10px dashed border */
 }
 
-/* Default style for div elements */
 div {
     min-height: 125px; /* Flexible height, at least 125px tall */
     padding: 20px; /* Padding of 20px on all sides */
     border: 3px solid #FFFFFF; /* 3px solid white border */
 }
 
-/* Style for elements with the introduction class */
 .introduction {
     border-radius: 15px; /* 15px border-radius for curved edges */
     margin-top: 15px; /* 15px margin on the top */
     line-height: 2; /* Double-spaced text */
 }
 
-/* Style for elements with the red class */
 .red {
     background-color: #FF0000; /* Background color red */
     text-align: right; /* Text aligned to the right */
     margin-left: 50px; /* Left margin of 50px */
-    border-bottom: 2px solid; /* 2px border on the bottom */
-    border-left: 5px solid; /* 5px border on the left */
+    border-top: 2px; /* 2px border on the bottom */
+    border-right: 5px; /* 5px border on the left */
 }
 
 
-/* Style for elements with the blue class */
 .blue {
     background-color: #0000FF; /* Background color blue */
     text-align: left; /* Text aligned to the left */
     margin-right: 50px; /* Right margin of 50px */
-    border-right: 5px solid; /* 5px border on the right */
-    border-top: 2px solid; /* 2px border on the top */
+    border-left: 5px; /* 5px border on the right */
+    border-bottom: 2px; /* 2px border on the top */
     color: #C4C4C4; /* Light grey text color for better contrast */
 }
 
-/* Style for elements with the yellow class */
+.blue h2 {
+    color: #C4C4C4; /* Correct color for better contrast */
+}
+
 .yellow {
     background-color: #FFFF00; /* Background color yellow */
     text-align: right; /* Text aligned to the right */
     margin-left: 50px; /* Left margin of 50px */
-    border-bottom: 2px solid; /* 2px border on the bottom */
-    border-left: 5px solid; /* 5px border on the left */
+    border-top: 2px; /* 2px border on the bottom */
+    border-right: 5px; /* 5px border on the left */
     color: #707070; /* Dark grey text color for better contrast */
 }
 
-/* Style for elements with the green class */
 .green {
-    background-color: #00EB00; /* You can choose between #00EB00, #008500, or #00D800 for different shades of green */
+    background-color: #008500; /* You can choose between #00EB00, #008500, or #00D800 for different shades of green */
     text-align: left; /* Text aligned to the left */
     margin-right: 50px; /* Right margin of 50px */
-    border-right: 5px solid; /* 5px border on the right */
-    border-top: 2px solid; /* 2px border on the top */
+    border-left: 5px; /* 5px border on the right */
+    border-bottom: 2px; /* 2px border on the top */
 }
 
-/* Style for default footer elements */
 footer {
     background: linear-gradient(to right, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%); /* Gradient background */
     border: 5px solid #FFFFFF; /* 5px solid white border */
 }
 
-/* Style for paragraphs within the footer */
 footer p {
     font-size: 20px; /* 20px text size */
     text-align: right; /* Text aligned to the right */
